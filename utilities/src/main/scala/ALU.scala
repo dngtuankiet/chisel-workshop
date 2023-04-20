@@ -1,6 +1,5 @@
 import chisel3._
 import chisel3.util._
-
 class ALU extends Module {
     val io = IO(new Bundle{
         val i_a = Input(UInt(8.W))
